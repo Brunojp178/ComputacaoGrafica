@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="exerc_perspectiva" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/exerc_perspectiva" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/Fernando/Desktop/Bruno/freeglut/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/exerc_perspectiva" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/Fernando/Desktop/Bruno/freeglut/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/Fernando/Desktop/Bruno/freeglut/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Users/Fernando/Desktop/Bruno/freeglut/lib" />
+		</Linker>
+		<Unit filename="cama.cpp" />
+		<Unit filename="cama.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="quadro.cpp" />
+		<Unit filename="quadro.h" />
+		<Unit filename="quarto.cpp" />
+		<Unit filename="quarto.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

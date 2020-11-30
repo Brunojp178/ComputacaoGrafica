@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1606768594 source:c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"quarto.h"
+	"quadro.h"
+	"cama.h"
+
+1426364128 c:\users\fernando\desktop\bruno\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1426364128 c:\users\fernando\desktop\bruno\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1606765077 source:c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\quarto.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"quarto.h"
+
+1606758854 c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\quarto.h
+
+1606766893 c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\quadro.h
+
+1606766979 source:c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\quadro.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"quadro.h"
+
+1606775520 source:c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\cama.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"cama.h"
+
+1606770863 c:\users\fernando\desktop\bruno\codeblocks\exerc_perspectiva\cama.h
+
